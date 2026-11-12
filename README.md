@@ -4,7 +4,7 @@
 
 A SKILL.md skill that turns your AI agent into a low-pressure win-back operator. Point it at your stale pipeline and it finds the leads worth reviving, writes a short human check-in, sends the safe touches itself, and queues only the emails that deserve your review.
 
-Built from the [Dead Lead Retrieval](https://github.com/potaterrr/dead-lead-retrieval) n8n workflow — same warm three-sentence voice, same no-invented-URLs rule, but the agent sends instead of filing drafts.
+Built from the [Dead Lead Retrieval](https://github.com/inodepi/dead-lead-retrieval) n8n workflow — same warm three-sentence voice, same no-invented-URLs rule, but the agent sends instead of filing drafts.
 
 ## What it does
 
@@ -74,7 +74,7 @@ No credentials live in this repo. Nothing is sent until your agent runs this ski
 
 The `assets/` folder carries the original n8n workflow: a daily ClickUp sweep, LLM check-in drafting, and Gmail drafts that a human always sends. Import it into n8n and attach your own credentials.
 
-Full workflow documentation lives in the [companion repo](https://github.com/potaterrr/dead-lead-retrieval).
+Full workflow documentation lives in the [companion repo](https://github.com/inodepi/dead-lead-retrieval).
 
 ## Safety
 
